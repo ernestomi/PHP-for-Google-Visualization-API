@@ -15,6 +15,9 @@
 	 * WARNINGS:
 	 * 		-I have not included any Oracle Error Handling
 	 * 		-I have not included any row limit, so if your query returns an unmanageable amount of rows, it may become an issue for you or your web users.
+	 *FUTURE OPPORTUNITIES:
+	 *		-This functions only return type and label properties. If you want to use pattern, id or p (for styling) you can add a check  when looping through the columns
+	 *		and try to detect a particular column name that you define as the property (EG. if oci_field_name($stid, $i)=="GOOGLE_P_DATA" then ....)
 	 */
 	function getSQLDataTable($un,$pw,$db,$SQLString){
 		$conn=oci_connect($un,$pw,$db);

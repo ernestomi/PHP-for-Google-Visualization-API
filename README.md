@@ -12,6 +12,8 @@ The code is split into 3 functions:
 -convertGoogleDate:
     This takes a date and creates a string that the google API recognizes as a date
 
+
+
 I have also included a sample for the front end integration:
 
 -sampleSQLtoGoogle.js:
@@ -19,6 +21,8 @@ I have also included a sample for the front end integration:
   
 -sampleSQLtoGoogle.html:
   HTML document to bring it all together!
+
+
 
 I prefer to keep the php, js and html separate. This way, I can have many php files that relate to different information I want to distribute,
 whilst keeping the client side simple and neat with as few JS as possible. The other approach that some people prefer is to have the JS be generated 

@@ -2,16 +2,21 @@
 PHP code that takes a Query result from an Oracle connection and converts it to a JSON that can be directly plugged in to the Google Visualization API to create a Data Table.
 
 The code is split into 3 functions:
+
 -getSQLDataTable:
     This is the main code that takes in an SQL Query String, Database Connection details and generates two arrays, one for columns and one for rows.
+    
 -arrayToGoogleDataTable:
     This simply takes the arrays from the previous function and outputs the JSON string in the Google Visualization API format
+    
 -convertGoogleDate:
     This takes a date and creates a string that the google API recognizes as a date
 
 I have also included a sample for the front end integration:
+
 -sampleSQLtoGoogle.js:
   JS to generate the chart
+  
 -sampleSQLtoGoogle.html:
   HTML document to bring it all together!
 

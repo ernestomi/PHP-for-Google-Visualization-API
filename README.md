@@ -1,5 +1,5 @@
 # PHP-for-Google-Visualization-API
-PHP code that takes a Query result from an Oracle connection and converts it to a JSON that can be directly plugged in to the Google Visualization API to create a Data Table.
+The intent of this repo is to provide a solution to creating a Google Visualization Data Table from an 0racle database and PHP. This can then be used to create Google Charts. The way it works is the PHP connects to the DB and outputs a JSON string that can be directly plugged in to the Google Visualization API to create a Data Table. I havent tried using other database types (sorry), but I assume it should be relatively straight forward adapting the code to fit your DB.
 
 The code is split into 3 functions:
 
@@ -31,3 +31,5 @@ by PHP and output the JSON directly on the JS code. It really depends on what yo
 If you havent already, take a look at the Google Visualization API documentation:
   https://developers.google.com/chart/interactive/docs/reference#datatable-class
   
+Key words:
+PHP, Oracle, Google Charts, Google Visualization API, JavaScript, JSON
